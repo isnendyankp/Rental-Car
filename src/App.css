@@ -1,0 +1,115 @@
+body{
+  padding: 0;
+  margin: 0;
+  /* width: 100vw; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-light-green{
+  background-color: rgba(241, 243, 255, 1);
+}
+
+.landing{
+  height: calc(100vh - 200px);
+}
+
+.left-landing{
+  padding-left: 8rem;
+}
+
+.right-landing img{
+  width: 662px;
+
+}
+
+.navbar{
+  background-color: rgba(241, 243, 255, 1)
+}
+
+.service{
+  padding: 60px;
+  height: 100vh;
+}
+
+.left-service img{
+  width: 98%;
+}
+
+.btn-arrow:hover{
+  cursor: pointer;
+}
+
+.slick-slide > div {
+  margin: 0 12px;
+}
+
+.slick-list  {
+  margin: 0 -12px;
+}
+
+.testimonial{
+  background-color: #F1F3FF !important;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.subtitle {
+  width: 32rem;
+}
+
+.whyCard{
+  width: 16rem;
+}
+
+.bannerBotBody {
+  width: 50%;
+}
+
+/* .sideBar {
+  position: absolute;
+  z-index: 9999;
+} */
+
+.carSearch{
+  width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing{
+    height: auto
+  }
+  .right-landing img{
+    width: 100%;
+  
+  }
+  .left-landing{
+    padding-left: 2rem;
+  }
+  .subtitle {
+    width: 100%;
+  }
+  .service{
+    padding: 16px;
+    height: auto;
+  }
+  .left-service img{
+    width: 80%;
+    
+  }
+  .whyCard{
+    width: 100%;
+  }
+  .bannerBotBody {
+    width: 100%;
+
+  }
+  .offcanvas {
+    max-width: 50%;
+  }
+
+}
+
+
